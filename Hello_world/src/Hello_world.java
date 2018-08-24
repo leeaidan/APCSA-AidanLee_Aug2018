@@ -1,8 +1,8 @@
 /**
  * This program prints to the console "Hello World! From Aidan Lee
  * 
- * @aidanlee(your name) 
- * @1.0(a version number or a date)
+ * @author Aidan Lee  
+ * @1.0 8/23/18
  */
 public class Hello_world
 {
