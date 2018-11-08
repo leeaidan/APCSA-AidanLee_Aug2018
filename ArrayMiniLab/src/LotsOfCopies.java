@@ -14,7 +14,7 @@ public class LotsOfCopies {
 		int b=a;
 		a=7;
 		System.out.println(b);
-				
+		int c;
 		
 		
 	}
