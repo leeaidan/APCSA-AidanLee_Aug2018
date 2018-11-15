@@ -17,7 +17,8 @@ public class Main {
 		symbolLoop("|", 1);
 		symbolLoop("\"", 10);
 		symbolLoop("|", 1);
-		newLine();
+		symbolLoop("\n", 1);
+		
 	}
 	//prints the top half, using 5 in for loop b/c there are 4 lines of code
 	public static void printTHalf() {
@@ -26,7 +27,7 @@ public class Main {
 			symbolLoop("\\", 1);
 			symbolLoop(":", 10-2*i);//subtracts from ten b/c thats the width, multiplies 2 by i b/c loses 2 colons each time
 			symbolLoop("/", 1);
-			newLine();
+			symbolLoop("\n", 1);
 		}
 	}
 	//prints the mid portion, which has 5 spaces on each side
@@ -34,7 +35,7 @@ public class Main {
 		symbolLoop(" ", 5);
 		symbolLoop("||", 1);
 		symbolLoop(" ", 5);
-		newLine();
+		symbolLoop("\n", 1);
 	}
 	//uses 5 in for loop b/c there are 4 lines in the bottom half
 	//basically reversal of the top half
@@ -44,7 +45,7 @@ public class Main {
 			symbolLoop("/", 1);
 			symbolLoop(":", (10-(10-2*i))); //a totally jank solution like in printTalf() but reversed
 			symbolLoop("\\", 1);
-			newLine();
+			symbolLoop("\n", 1);
 		}
 	}
 	
@@ -58,9 +59,5 @@ public class Main {
 			System.out.print(symbol);
 		}
 	}
-	//Prints a new line
-	public static void newLine() {
-		System.out.println("");
-	}
-
 }
+	
